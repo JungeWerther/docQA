@@ -1,0 +1,4 @@
+transformers==4.24.0
+pydantic==1.*
+gradio
+docquery

@@ -1,0 +1,11 @@
+version: '0.1'
+services:
+  
+  app:
+    build:
+      context: .
+      dockerfile: dockerfile
+    ports:
+      - 7860:7860
+    environment:
+      - GRADIO_SERVER_NAME=0.0.0.0
